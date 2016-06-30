@@ -1,0 +1,252 @@
+{
+
+  "les-origines": {
+    "title": "les origines",
+    "subtitle": "La notion de whistleblowers",
+    "mainCover": "origines_header",
+
+    "videoNarration": "fiction_1",
+
+
+    "chapterIntroduction": {
+      "cover": "origines_introduction",
+
+      "title": {
+        "firstTitle": "Le lanceur d'alerte",
+        "secondTitle": "Que cela signifie-t-il ?"
+      },
+
+      "firstParagraph": "C' est dans l' ouvrage« Une Sociologie pragmatique de l 'alerte et du risque » publié en 1999, que le terme « lanceur d'alerte » est inventé pour la première fois par les sociologues Francis Chateauraynaud et Didier Torny. Dans le cadre de leurs travaux, les auteurs soulignent la nécessité d'entamer un processus d'alerte dans le cas où cela peut permettre d'enrayer un mécanisme néfaste pour tous.",
+      "secondParagraph": "Les deux sociologues s' appuient notamment sur les risquent importants de l' amiante, le nucléaire(risque radioactif) et la« vache folle» pour étayer leur propos.",
+
+      "video": {
+        "src": "real_1",
+        "title": "Traîtres ou héros?"
+      },
+
+      "thirdParagraph": "Autrement dit, le lanceur d'alerte désigne une personne ou un groupe qui estime avoir découvert des éléments qu'il considère comme menaçants pour l'homme, la société, l'économie ou l'environnement et qui, de manière désintéressée, décide de les porter à la connaissance d'instances officielles, d'associations ou de médias, parfois contre l'avis de sa hiérarchie."
+    },
+
+    "chapterCitation": {
+      "cover": "origines_citation",
+      "citation": {
+        "citation": "Je sais que des gens attendent en silence de dénoncer un système.",
+        "author": "Antoine Deltour"
+      }
+    },
+
+    "chapterEnd": {
+      "cover": "origines_end",
+      "resume": {
+        "title": "Daniel Ellsberg",
+        "description": "Ancien marine devenu analyste militaire, Daniel Ellsberg est le pionnier du mouvement des « whistleblowers ». En 1969, Daniel Ellsberg dévoile plus de 7000 pages classées secret défense. Ce sont en fait les dossiers du Pentagon qui détaille les intentions réelles des USA aux Vietnam. "
+      },
+      "nextChapter": {
+        "url": "crise-democratique"
+      },
+      "sources": {
+        "source-1": {
+          "link": "",
+          "picture": "",
+          "title": ""
+        },
+        "source-2": {
+          "link": "",
+          "picture": "",
+          "title": ""
+        },
+        "source-3": {
+          "link": "",
+          "picture": "",
+          "title": ""
+        }
+      }
+    }
+  },
+  "crise-democratique": {
+    "title": "Une réponse à la crise démocratique",
+    "subtitle": "Chapitre 2",
+    "mainCover": "reponse_header",
+
+    "videoNarration": "fiction_2",
+
+
+    "chapterIntroduction": {
+      "cover": "reponse_introduction",
+
+      "title": {
+        "firstTitle": "Un nombre en croissance",
+        "secondTitle": "Snowden, Assange, Ellsberg... des noms reconnus"
+      },
+
+      "firstParagraph": "Dans un monde ou le secret prend une place importante au sein de notre gouvernement, nous avons deux possibilités. Devenir complice du complot et fermer les yeux devant les actes immorales à l’encontre de l’éthique. Ou bien dévoiler au grand jour les secrets d'état pour établir justice et équité. Le peuple doit savoir mais quel est le risque ? « Devenir lanceur d’alerte n’est pas une ambition» ",
+      "secondParagraph": "Il faut savoir faire preuve de sang-froid et être prêt à recevoir les coups que le gouvernement va nous donner. être lanceur d’alerte, c’est être le martyr de notre société.",
+
+      "video": {
+        "src": "fiction_2",
+        "title": "Qui sont-ils ?"
+      },
+
+      "thirdParagraph": "L'identité de la personne qui a transmis les documents est toujours secrète. «C'est le secret des sources», raconte Antoine Deltour. Il affirme dans le même temps ne pas «Etre un héros» et rejette la figure médiatique parfois décrite du lanceur d'alerte comme quelqu'un d'isolé et courageux. Oui on l'est, mais on n'est pas seul, je sais qu'aujourd'hui des milliers de personnes sont les témoins silencieux de pratiques qui devraient être portées à l'attention du public."
+    },
+
+    "chapterCitation": {
+      "cover": "reponse_citation",
+      "citation": {
+        "citation": "Why should people care about surveillance ? Because if you’re not doing anything wrong you’re being recorded and watched.",
+        "author": "Edward Snowden"
+      }
+    },
+
+    "chapterEnd": {
+      "cover": "reponse_end",
+      "resume": {
+        "title": "Antoine Deltour",
+        "description": "Depuis son inculpation par la justice luxembourgeoise, Antoine Deltour est dans l'attente. Il a été reçu par la commission spéciale TAXE au Parlement européen, s'est vu décerné le Prix du citoyen européen 2015 pour son action et s'avoue heureux d'avoir fait bouger les choses à Bruxelles."
+      },
+      "nextChapter": {
+        "url": "changement"
+      },
+      "sources": {
+        "source-1": {
+          "link": "https://www.youtube.com/watch?v=5yB3n9fu-rM",
+          "picture": "",
+          "title": "NSA whistleblower Edward Snowden"
+        },
+        "source-2": {
+          "link": "http://www.lefigaro.fr/conjoncture/2015/09/01/20002-20150901ARTFIG00133-antoine-deltour-l-homme-qui-a-fait-trembler-le-luxembourg.php",
+          "picture": "",
+          "title": "Antoine Deltour, l'homme qui a fait trembler le Luxembourg"
+        },
+        "source-3": {
+          "link": "https://www.youtube.com/watch?v=ScFu7MeY4G4",
+          "picture": "",
+          "title": "Julian Assange (WikiLeaks) l'entretien exclusif - Le Grand Journal"
+        }
+      }
+    }
+  },
+  "changement": {
+    "title": "Un désir de changement",
+    "subtitle": "Chapitre 3",
+    "mainCover": "changement_header",
+
+    "videoNarration": "fiction_3",
+
+
+    "chapterIntroduction": {
+      "cover": "changement_introduction",
+
+      "title": {
+        "firstTitle": "Un désir de changement",
+        "secondTitle": "Dans quel but?"
+      },
+
+      "firstParagraph": "Dans un monde ou le secret prend une place importante au sein de notre gouvernement, nous avons deux possibilités. Devenir complice du complot et fermer les yeux devant les actes immorales à l’encontre de l’éthique. Ou bien dévoiler au grand jour les secrets d'état pour établir justice et équité. Le peuple doit savoir mais quel est le risque ? « Devenir lanceur d’alerte n’est pas une ambition » ",
+      "secondParagraph": "Dans ce chapitre, vous verrez que ces hommes, auparavant à votre place, se sont trouvés face à un dilemme. ",
+
+      "video": {
+        "src": "real_3",
+        "title": "Quelles sont leurs motivations"
+      },
+
+      "thirdParagraph": "«Ce jour-là, je me suis rendu compte que j’avais travaillé 15 ans dans les Marines, pour un système qui, de haut en bas, avait menti sur ces meurtres : Je ne pouvais plus faire parti de ce système.» Ancien marine devenu analyste militaire, Daniel Ellsberg est le pionnier du mouvement des whistleblowers. Daniel Ellsberg dévoile plus de 7000 pages classées secret défense. Ce sont en fait les dossiers du Pentagon qui détaille les intentions réelles des USA aux Vietnam."
+    },
+
+    "chapterCitation": {
+      "cover": "changement_citation",
+      "citation": {
+        "citation": " L’europe est gouvernée par un pirate en chef, Jean-Claude Juncker. Il a piraté nos économies",
+        "author": "Hervé Falciani"
+      }
+    },
+
+    "chapterEnd": {
+      "cover": "changement_end",
+      "resume": {
+        "title": "'John Doe' - Panama Papers",
+        "description": "Que ce soit bien clair : je ne travaille ni n’ai jamais travaillé pour un gouvernement ou un service de renseignement. Mon point de vue est personnel, tout autant que ma décision de partager les documents, simplement parce que j’ai compris leur teneur pour me rendre compte de l’ampleur."
+      },
+      "nextChapter": {
+        "url": "dommages-collateraux"
+      },
+      "sources": {
+        "source-1": {
+          "link": "https://www.youtube.com/watch?v=undi65xK6Qw",
+          "picture": "",
+          "title": "Daniel Ellsberg, l'homme qui a fait tomber Nixon - Tracks ARTE"
+        },
+        "source-2": {
+          "link": "https://www.youtube.com/watch?v=5yB3n9fu-rM",
+          "picture": "",
+          "title": "NSA whistleblower Edward Snowden"
+        },
+        "source-3": {
+          "link": "http://www.francetvinfo.fr/economie/fraude/economie/fraude/swissleaks/swissleaks-les-declarations-fracassantes-du-lanceur-d-alerte-herve-falciani_822765.html",
+          "picture": "",
+          "title": "SwissLeaks : les déclarations fracassantes du lanceur d'alerte Hervé Falciani"
+        }
+      }
+    },
+    
+  "dommages-collateraux": {
+      "title": "Risque et dommage collatéraux",
+      "subtitle": "Chapitre 4",
+      "mainCover": "risque_header",
+
+      "videoNarration": "fiction_4",
+
+
+      "chapterIntroduction": {
+        "cover": "risque_introduction",
+
+        "title": {
+          "main-title": "Daniel Ellsberg",
+          "second-title": "L'homme qui fait tomber Nixon"
+        },
+
+        "firstParagraph": "Après une semaine de fuite, Ellsberg se dénonce afin de protéger ses complices, il encoure une peine de 115 ans de prison. Le président engage donc des anciens agents de la CIA afin de cambrioler Ellsberg pour trouver des informations compromettantes qu’il pourrait dévoiler contre le lanceur d’alerte. Ces persécutions ne s’arrête pas là et le gouvernement ordonnera par la suite de l'éliminer.",
+        "secondParagraph": "Le scandale Watergate a été révélé  par W. Mark Felt. C'est donc suite de ces évènements, Nixon est forcé à la démission. Les charges contre Ellsberg sont donc abandonnées. ",
+
+        "video": {
+          "src": "fiction_4",
+          "title": "Que leur est-il arrivé ?"
+        },
+
+        "thirdParagraph": "Alors que le lanceur d'alerte choisi la vérité, le gouvernement n'est jamais très loin. Lors d'un entretient entre Julian Assange avec Le Grand Journal, ce dernier nous a révélé des statistiques concernant les poursuites des lanceurs d'alarme aux Etats-Unis. En effet, l’administration Obama a engagé plus de poursuites contre des journalistes ou des dénonciateurs pas seulement plus que n’importe quel président et plus que tous les anciens présidents américains réunis !"
+      },
+
+      "chapterCitation": {
+        "cover": "risque_citation",
+        "citation": {
+          "citation": "Ne perdons pas de vue l’essentiel. Et l’essentiel, c’est Ellsberg. On l’aura, ce salaud.",
+          "author": "Richard Nixon"
+        }
+      },
+
+      "chapterEnd": {
+        "cover": "risque_end",
+        "nextChapter": {
+          "url": "crise-democratique"
+        },
+        "sources": {
+          "source-1": {
+            "link": "https://www.youtube.com/watch?v=undi65xK6Qw",
+            "picture": "",
+            "title": "Daniel Ellsberg, l'homme qui a fait tomber Nixon - Tracks ARTE"
+          },
+          "source-2": {
+            "link": "https://www.youtube.com/watch?v=5yB3n9fu-rM",
+            "picture": "",
+            "title": "NSA whistleblower Edward Snowden"
+          },
+          "source-3": {
+            "link": "https://www.youtube.com/watch?v=ScFu7MeY4G4",
+            "picture": "",
+            "title": "Julian Assange (WikiLeaks) l'entretien exclusif"
+          }
+        }
+      }
+    }
+  }
+}
