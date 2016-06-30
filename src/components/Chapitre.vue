@@ -370,7 +370,7 @@
       </div>
       <div class="chapter__storytelling">
         <div class="video__container">
-          <video autoplay class="video" v-on:click="play('.video')">
+          <video class="video" v-on:click="play('.video')">
             <source :src="fictionSrc" type="video/webm">
           </video>
         </div>
@@ -384,7 +384,7 @@
             <p>{{ chapterData.chapterIntroduction.secondParagraph }}</p>
           </div>
           <div class="first__video">
-            <video class="docu" autoplay v-on:click="play('.docu')" >
+            <video class="docu" v-on:click="play('.docu')" >
               <source :src="realSrc" type="video/webm">
             </video>
             <div class="video__supplement">
@@ -415,7 +415,7 @@
             <p class="description">
               {{ chapterData.chapterEnd.resume.description }}
             </p>
-            <a class="end__button" v-link="{ name: 'chapitres', params: { chapitre_name: chapterData.chapterEnd.nextChapter.url }}"><button><i class="fa fa-play fa-1x"></i><span>Chapitre suivant</span></button></a>
+            <a class="end__button" v-on:click="totop" v-link="{ name: 'chapitres', params: { chapitre_name: chapterData.chapterEnd.nextChapter.url }}"><button><i class="fa fa-play fa-1x"></i><span>Chapitre suivant</span></button></a>
           </div>
         </div>
         <sources></sources>
@@ -445,12 +445,6 @@ export default {
       chapterData: chapitres[this.$route.params.chapitre_name]
     }
   },
-  // props: ['data'],
-  // data () {
-  //   return {
-  //     'title': 'berk'
-  //   }
-  // },
   ready () {
     console.log(this.$route.params.chapitre_name)
     if (this.$route.params.chapitre === 'crise-democratique') {
@@ -459,6 +453,9 @@ export default {
     document.title = 'Whistleblowers —– this.$route.params.chapitre_name'
   },
   methods: {
+    totop: function () {
+      document.querySelector('html').scrollTo(0)
+    },
     play: function (el) {
       console.log(el)
       if (document.querySelector(el).paused) {
@@ -478,6 +475,7 @@ export default {
         this.fictionSrc = require('assets/videos/' + chapitres[this.$route.params.chapitre_name].videoNarration + '.webm')
         this.realSrc = require('assets/videos/' + chapitres[this.$route.params.chapitre_name].chapterIntroduction.video.src + '.webm')
         this.chapterData = chapitres[this.$route.params.chapitre_name]
+        window.scrollTo(0, 0)
       }
     }
   }

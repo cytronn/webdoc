@@ -1,6 +1,9 @@
 <style lang="scss" scoped>
 	$white: #fafafa;
 
+	a{
+		text-decoration: none;
+	}
 	.main__header{
 		z-index: 10000000000000;
 		position: fixed;
@@ -70,9 +73,11 @@
 
 <template>
 	<div class="main__header">
-		<div class="menu__trigger">
-			<i class="fa fa-navicon fa-1x"></i>Menu
-		</div>
+		<a href="/home">
+			<div class="menu__trigger">
+				Accueil
+			</div>
+		</a>
 		<div class="chapter__number">
 			<p>
 				01

@@ -75,6 +75,7 @@
 		flex-grow: 1;
 		margin-top: 150px;
 		h1{
+			margin-bottom: 100px;
 			position: relative;
 			font-size: 96px;
 			height: auto;
