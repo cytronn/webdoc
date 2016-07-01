@@ -99,23 +99,23 @@
 		</a>
 		<div class="chapter__number">
 			<p>
-				01
+				{{ chapter.number }}
 			</p>
 		</div>
 		<div class="buttons">
 			<!-- <div class="previous" v-link="{ name: 'chapitres', params: { chapitre_name: chapterData.chapterEnd.nextChapter.url }}"> <i class="fa fa-1x fa-angle-left"></i> </div> -->
-			<div class="next" v-on:mouseover="slide('next')"> <i class="fa fa-1x fa-angle-right"></i></div>
+			<a class="next" v-link="{ name: 'chapitres', params: { chapitre_name: nexturl }}"> <i class="fa fa-1x fa-angle-right"></i></a>
 		</div>
 	</div>
 </template>
 
 <script>
 export default{
-  props: ['chapterData'],
+  props: ['nexturl', 'chapter'],
   ready () {
     console.log('this')
-    if (this.chapterData) {
-      console.log('hello')
+    if (this.nexturl) {
+      console.log(this.chapter)
     }
   }
 }

@@ -40,6 +40,12 @@
 	.menu{
 		height: 20vh;
 		width: 160px;
+		opacity: 0;
+		animation-name: fadeIn;
+		animation-delay: 1.2s;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-out;
 		a{
 			display: block;
 			font-size: 14px;
@@ -83,6 +89,13 @@
 			letter-spacing: 0.1rem;
 			text-transform: uppercase;
 			color: $white;
+			transform: translateX(-70px);
+			opacity: 0;
+			animation-name: appearFromBot;
+			animation-duration: 0.6s;
+			animation-delay: 0.2s;
+			animation-fill-mode: forwards;
+
 			&::after{
 				content: "";
 				position: absolute;
@@ -91,6 +104,11 @@
 				width: 415px;
 				height: 15px;
 				background-color: $white;
+				transform: translateX(-300%);
+				animation-name: appear;
+				animation-duration: 0.8s;
+				animation-delay: 0.8s;
+				animation-fill-mode: forwards;
       }
     }
   }
@@ -98,6 +116,11 @@
 			font-size: 30px;
 			margin-bottom: 6px;
 			color: $white;
+			transform: translateX(-70px);
+			opacity: 0;
+			animation-name: appearFromBot;
+			animation-duration: 0.6s;
+			animation-fill-mode: forwards;
     }
   button{
     position: relative;
@@ -110,6 +133,11 @@
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    transform: translateX(-300%);
+    animation-name: appearFromLeft;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
     transition: all 0.4s ease;
     &::before{
       content: "";
@@ -135,6 +163,7 @@
       margin-right: 25px;
     }
   }
+
 			
 	.content i{
 		margin-right: 25px;
@@ -153,6 +182,12 @@
 		line-height: 20px;
 		bottom: 0;
 		right: 0;
+		opacity: 0;
+		animation-name: fadeIn;
+		animation-delay: 1.2s;
+		animation-duration: 0.6s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-out;
 		span:nth-child(1){
 			font-size: 16px;
 			font-weight: 700;
@@ -196,6 +231,44 @@
       position: fixed;
       bottom: 50px;
     }
+  }
+
+  @keyframes appear{
+  	0%{
+  		transform: translateX(-200%);
+  	}
+  	100%{
+  		transform: translateX(0);
+  	}
+  }
+
+  @keyframes appearFromBot{
+  	0%{
+  		transform: translateY(70px);
+  		opacity: 0;
+  	}
+  	100%{
+  		transform: translateY(0px);
+  		opacity: 1;
+  	}
+  }
+
+  @keyframes appearFromLeft{
+  	0%{
+  		transform: translateX(-300%);
+  	}
+  	100%{
+  		transform: translateX(0);
+  	}
+  }
+
+  @keyframes fadeIn{
+  	0%{
+  		opacity: 0;
+  	}
+  	100%{
+  		opacity: 1;
+  	}
   }
  </style>
   

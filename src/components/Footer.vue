@@ -109,14 +109,14 @@
 	<div class="main_footer">
 		<div class="footer__container">
 			<div class="left__part">
-				<a class="legal" href="#">mentions légales</a>
+				<a class="legal" v-link="{ path: '/legal' }">mentions légales</a>
 				<div class="social__links">
 					<a href=""><i class="fa fa-facebook fa-1x"></i></a>
 					<a href=""><i class="fa fa-twitter fa-1x"></i></a>
 				</div>
 			</div>
 			<div class="chapters">
-					<li class="active chapter">1.{{$route.params.chapitre_name}}</li>
+					<li class="chapter">1.{{$route.params.chapitre_name}}</li>
 					<li class="chapter">2</li>
 					<li class="chapter">3</li>
 					<li class="chapter">4</li>
@@ -133,4 +133,14 @@
 </template>
 
 <script>
+export default {
+  props: ['chapter'],
+  ready () {
+    console.log('this')
+    if (this.chapter) {
+      console.log(this.chapter.id)
+      document.querySelectorAll('.chapter')[this.chapter.id].classList = 'chapter active'
+    }
+  }
+}
 </script>

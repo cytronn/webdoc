@@ -103,6 +103,19 @@
     right: 0;
     background-color: #111111;
     overflow: hidden;
+    color: $white;
+    transition: all 0.2s ease-in;
+    &::after{
+      content:"Cliquez pour lancer la video";
+      font-size: 24px;
+      font-weight: 700;
+      position: absolute;
+      top: calc(50% - 20px);
+      left: 40%;
+      width: 20%;
+      height: 20px;
+      text-align: center;
+    }
   }
 
   .video{
@@ -151,8 +164,25 @@
   }
 
   .first__video{
+    position: relative;
     width: 100%;
+    min-height: 450px;
     margin-top: 80px;
+    overflow: hidden;
+    color: $white;
+    transition: all 0.2s ease-in;
+    &::after{
+      content:"Cliquez pour lancer la video";
+      font-size: 24px;
+      font-weight: 700;
+      position: absolute;
+      top: calc(50% - 20px);
+      left: 40%;
+      width: 20%;
+      height: 20px;
+      text-align: center;
+    }
+
     video{
       width: 100%;
     }
@@ -353,7 +383,7 @@
 <template>
   <div  class="chapter">
     <div class="chapter__container">
-      <main-header></main-header>
+      <main-header :chapter="chapterData" :nexturl="chapterData.chapterEnd.nextChapter.url"></main-header>
       <div class="chapter__header" :style="{ backgroundImage: `url(${headerSrc})` }">
         <div class="header__container">
           <div class="header__content">
@@ -420,7 +450,7 @@
         </div>
         <sources></sources>
       </div>
-      <main-footer></main-footer>
+      <main-footer :chapter="chapterData"></main-footer>
     </div>
   </div>
 </template>
@@ -454,14 +484,16 @@ export default {
   },
   methods: {
     totop: function () {
-      document.querySelector('html').scrollTo(0)
+      document.querySelector('html').scrollTo(0, 0)
     },
     play: function (el) {
       console.log(el)
       if (document.querySelector(el).paused) {
+        document.querySelector(el).parentElement.style.color = 'transparent'
         document.querySelector(el).play()
       } else {
         document.querySelector(el).pause()
+        document.querySelector(el).parentElement.style.color = '#fafafa'
       }
     }
   },

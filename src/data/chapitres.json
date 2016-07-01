@@ -1,6 +1,8 @@
 {
 
   "les-origines": {
+    "id": 1,
+    "number": "01",
     "title": "les origines",
     "subtitle": "La notion de whistleblowers",
     "mainCover": "origines_header",
@@ -64,6 +66,8 @@
     }
   },
   "crise-democratique": {
+    "id": 2,
+    "number": "02",
     "title": "Une réponse à la crise démocratique",
     "subtitle": "Chapitre 2",
     "mainCover": "reponse_header",
@@ -127,6 +131,8 @@
     }
   },
   "changement": {
+    "id": 3,
+    "number": "03",
     "title": "Un désir de changement",
     "subtitle": "Chapitre 3",
     "mainCover": "changement_header",
@@ -191,6 +197,8 @@
   },
 
   "dommages-collateraux": {
+    "id": 4,
+    "number": "04",
     "title": "Risque et dommage collatéraux",
     "subtitle": "Chapitre 4",
     "mainCover": "risque_header",
@@ -254,6 +262,8 @@
     }
   },
   "soutien": {
+      "id": 5,
+      "number": "05",
       "title": "Un soutien qui se développe",
       "subtitle": "Chapitre 5",
       "mainCover": "soutien_header",
