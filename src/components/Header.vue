@@ -51,7 +51,6 @@
   }
 
 	.chapter__number{
-    margin-right: 21px;
 		width: 100%;
 		height: 55px;
 		line-height: 55px;
@@ -73,10 +72,10 @@
 		height: 55px;
 		display: flex;
 		justify-content: space-between;
-  }
-
-	.previous, .next{
+ 	}
+	.next{
 		position: relative;
+		overflow: hidden;
 		cursor: pointer;
 		width: 55px;
 		height: 55px;
@@ -86,7 +85,30 @@
 		font-weight: 700;
 		background-color: $white;
 		transition: all 0.4s ease-out;
-  }
+	transition: all 0.4s ease;
+	    &::before{
+	      content: "";
+	      position: absolute;
+	      right: 100%;
+	      top: 0px;
+	      background-color: #353535;
+	      width: 100%;
+	      height: 100%;
+	      transition: all 0.4s ease;
+	    }
+	    &:hover{
+	      color: $white;
+	      &::before{
+	        right: 0%;
+	      }
+	    }
+	    span{
+	      position: relative;
+	    }
+	    i{
+	      position: relative;
+	    }
+	  }
 
 </style>
 
@@ -97,10 +119,12 @@
 				<span>Accueil</span>
 			</div>
 		</a>
-		<div class="chapter__number">
-			<p>
-				{{ chapter.number }}
-			</p>
+		<div class="chapter__number--container">
+			<div class="chapter__number">
+				<p>
+					{{ chapter.number }}
+				</p>
+			</div>
 		</div>
 		<div class="buttons">
 			<!-- <div class="previous" v-link="{ name: 'chapitres', params: { chapitre_name: chapterData.chapterEnd.nextChapter.url }}"> <i class="fa fa-1x fa-angle-left"></i> </div> -->

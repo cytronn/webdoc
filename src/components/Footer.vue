@@ -116,7 +116,7 @@
 				</div>
 			</div>
 			<div class="chapters">
-					<li class="chapter">1.{{$route.params.chapitre_name}}</li>
+					<li class="chapter">1</li>
 					<li class="chapter">2</li>
 					<li class="chapter">3</li>
 					<li class="chapter">4</li>
@@ -140,6 +140,19 @@ export default {
     if (this.chapter) {
       console.log(this.chapter.id)
       document.querySelectorAll('.chapter')[this.chapter.id].classList = 'chapter active'
+    }
+  },
+  watch: {
+    '$route.params': {
+      handler: function () {
+  //       console.log(this.chapter.id)
+        var chapters = document.querySelectorAll('.chapter')
+        for (var i = 0; i < chapters.length; i++) {
+          chapters[i].classList = 'chapter'
+        }
+        console.log((this.chapter.id + 1) % 5)
+        document.querySelectorAll('.chapter')[(this.chapter.id % 5) + 1].classList = 'chapter active'
+      }
     }
   }
 }
