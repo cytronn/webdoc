@@ -187,66 +187,133 @@
           "title": "SwissLeaks : les déclarations fracassantes du lanceur d'alerte Hervé Falciani"
         }
       }
-    },
-    
-  "dommages-collateraux": {
-      "title": "Risque et dommage collatéraux",
-      "subtitle": "Chapitre 4",
-      "mainCover": "risque_header",
+    }
+  },
 
-      "videoNarration": "fiction_4",
+  "dommages-collateraux": {
+    "title": "Risque et dommage collatéraux",
+    "subtitle": "Chapitre 4",
+    "mainCover": "risque_header",
+
+    "videoNarration": "fiction_4",
+
+
+    "chapterIntroduction": {
+      "cover": "risque_introduction",
+
+      "title": {
+        "firstTitle": "Daniel Ellsberg",
+        "secondTitle": "L'homme qui a fait tomber Nixon"
+      },
+
+      "firstParagraph": "Après une semaine de fuite, Ellsberg se dénonce afin de protéger ses complices, il encoure une peine de 115 ans de prison. Le président engage donc des anciens agents de la CIA afin de cambrioler Ellsberg pour trouver des informations compromettantes qu’il pourrait dévoiler contre le lanceur d’alerte. Ces persécutions ne s’arrête pas là et le gouvernement ordonnera par la suite de l'éliminer.",
+      "secondParagraph": "A cette période, un autre évènement vient s’interférer. Le cambriolage de l’immeuble du Watergate, locaux du partie démocrate, espionner sur ordre de l’administration Nixon",
+
+      "video": {
+        "src": "fiction_4",
+        "title": "Que leur est-il arrivé ?"
+      },
+
+      "thirdParagraph": "Lors d'un entretien, Julian Assange a révélé des statistiques concernant les poursuites des lanceurs d'alarme aux Etats-Unis. L’administration Obama aurait engagé plus de poursuites contre des journalistes ou des dénonciateurs pas seulement plus que n’importe quel président et plus que tous les anciens présidents américains réunis !"
+    },
+
+    "chapterCitation": {
+      "cover": "risque_citation",
+      "citation": {
+        "citation": "Ne perdons pas de vue l’essentiel. Et l’essentiel, c’est Ellsberg. On l’aura, ce salaud.",
+        "author": "Richard Nixon"
+      }
+    },
+
+    "chapterEnd": {
+      "cover": "risque_end",
+       "resume": {
+        "title": "L'affaire Nixon",
+        "description": "Le scandale Watergate a été révélé  par W. Mark Felt. C'est donc suite de ces évènements, Nixon est forcé à la démission. Les charges contre Ellsberg sont donc abandonnées."
+      },
+      "nextChapter": {
+        "url": "soutien"
+      },
+      "sources": {
+        "source-1": {
+          "link": "https://www.youtube.com/watch?v=undi65xK6Qw",
+          "picture": "",
+          "title": "Daniel Ellsberg, l'homme qui a fait tomber Nixon - Tracks ARTE"
+        },
+        "source-2": {
+          "link": "https://www.youtube.com/watch?v=5yB3n9fu-rM",
+          "picture": "",
+          "title": "NSA whistleblower Edward Snowden"
+        },
+        "source-3": {
+          "link": "https://www.youtube.com/watch?v=ScFu7MeY4G4",
+          "picture": "",
+          "title": "Julian Assange (WikiLeaks) l'entretien exclusif"
+        }
+      }
+    }
+  },
+  "soutien": {
+      "title": "Un soutien qui se développe",
+      "subtitle": "Chapitre 5",
+      "mainCover": "soutien_header",
+
+      "videoNarration": "fiction_3",
 
 
       "chapterIntroduction": {
-        "cover": "risque_introduction",
+        "cover": "soutien_introduction",
 
         "title": {
-          "main-title": "Daniel Ellsberg",
-          "second-title": "L'homme qui fait tomber Nixon"
+          "firstTitle": "Un soutien croissant",
+          "secondTitle": "Une situation qui évolue"
         },
 
-        "firstParagraph": "Après une semaine de fuite, Ellsberg se dénonce afin de protéger ses complices, il encoure une peine de 115 ans de prison. Le président engage donc des anciens agents de la CIA afin de cambrioler Ellsberg pour trouver des informations compromettantes qu’il pourrait dévoiler contre le lanceur d’alerte. Ces persécutions ne s’arrête pas là et le gouvernement ordonnera par la suite de l'éliminer.",
-        "secondParagraph": "Le scandale Watergate a été révélé  par W. Mark Felt. C'est donc suite de ces évènements, Nixon est forcé à la démission. Les charges contre Ellsberg sont donc abandonnées. ",
+        "firstParagraph": "Malgré une haine présente chez des états ou entreprises qui ont été touchés par les différents scandales, certaines personnes préfèrent soutenir ceux qui se battent contre le mensonge et la corruption. Julian Assange nous raconte que chaque après midi des personnes se regroupe devant l’ambassade d'équateur où il est protégé pour manifester leurs soutient contre l'injustice des lanceurs d’alerte.",
+        "secondParagraph": "En France, la loi Sapin 2 va permettre de créer l’agence national de prévention et de détection de la corruption qui soutiendra ceux qui possèdent des informations importants.",
 
         "video": {
-          "src": "fiction_4",
-          "title": "Que leur est-il arrivé ?"
+          "src": "fiction_3",
+          "title": "Quelle protection?"
         },
 
-        "thirdParagraph": "Alors que le lanceur d'alerte choisi la vérité, le gouvernement n'est jamais très loin. Lors d'un entretient entre Julian Assange avec Le Grand Journal, ce dernier nous a révélé des statistiques concernant les poursuites des lanceurs d'alarme aux Etats-Unis. En effet, l’administration Obama a engagé plus de poursuites contre des journalistes ou des dénonciateurs pas seulement plus que n’importe quel président et plus que tous les anciens présidents américains réunis !"
+        "thirdParagraph": "Des anciens lanceurs d’alerte, comme Ellsberg, encourage les nouveaux lanceurs d’alerte afin d’établir une justice entre l’Etat et le peuple. Dans le cas de Julian Assange, il raconte à travers l'interview que chaque après midi des personnes se regroupe devant l’ambassade d'équateur où il est protégé depuis 2 ans, pour manifester leurs soutient au lanceur d’alerte. D’autres sont allés manifester par dizaines, par centaines pour soutenir Snowden à travers le monde."
       },
 
       "chapterCitation": {
-        "cover": "risque_citation",
+        "cover": "soutien_citation",
         "citation": {
-          "citation": "Ne perdons pas de vue l’essentiel. Et l’essentiel, c’est Ellsberg. On l’aura, ce salaud.",
-          "author": "Richard Nixon"
+          "citation": "If wars can be started by lies, they can be stopped by truth.",
+          "author": "Julian Assange"
         }
       },
 
       "chapterEnd": {
-        "cover": "risque_end",
+        "cover": "soutien_end",
+        "resume": {
+          "title": "Quand le monde ouvre les yeux",
+          "description" : "Certains pays mettent en place plusieurs lois qui vont pouvoir permettre de soutenir le combat des lanceurs d’alerte. Ces pays estiment qu’ils sont ceux qui révèlent la vérité sur des sujets importants pour la société comme la médecine ou l’économie. Ils proposent donc exil et protection."
+        },
         "nextChapter": {
-          "url": "crise-democratique"
+          "url": "les-origines"
         },
         "sources": {
           "source-1": {
+            "link": "http://www.europe1.fr/economie/corruption-transparence-lanceur-dalerte-etc-ce-que-va-changer-la-loi-sapin-2-2764879",
+            "picture": "",
+            "title": "Corruption, transparence, lanceur d'alerte, etc. : ce que va changer la loi Sapin 2"
+          },
+          "source-2": {
             "link": "https://www.youtube.com/watch?v=undi65xK6Qw",
             "picture": "",
             "title": "Daniel Ellsberg, l'homme qui a fait tomber Nixon - Tracks ARTE"
           },
-          "source-2": {
-            "link": "https://www.youtube.com/watch?v=5yB3n9fu-rM",
-            "picture": "",
-            "title": "NSA whistleblower Edward Snowden"
-          },
           "source-3": {
             "link": "https://www.youtube.com/watch?v=ScFu7MeY4G4",
             "picture": "",
-            "title": "Julian Assange (WikiLeaks) l'entretien exclusif"
+            "title": "Julian Assange (WikiLeaks) l'entretien exclusif - Le Grand Journal"
           }
         }
       }
     }
-  }
 }
