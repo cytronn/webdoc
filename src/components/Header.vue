@@ -17,18 +17,37 @@
   }
 
 	.menu__trigger{
+		overflow: hidden;
+		position: relative;
 		width: 180px;
 		height: 55px;
 		line-height: 55px;
-    text-transform: uppercase;
+    	text-transform: uppercase;
 		font-weight: 700;
-    font-size: 14px;
+    	font-size: 14px;
 		text-align: center;
 		background-color: $white;
 		cursor: pointer;
-		i{
-			margin-right: 15px;
+		transition: all 0.4s ease;
+    &::before{
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 0px;
+      background-color: #353535;
+      width: 100%;
+      height: 100%;
+      transition: all 0.4s ease;
     }
+    &:hover{
+      color: $white;
+      &::before{
+        right: 0%;
+      }
+    }
+    span{
+      position: relative;
+  	}
   }
 
 	.chapter__number{
@@ -75,7 +94,7 @@
 	<div class="main__header">
 		<a href="/home">
 			<div class="menu__trigger">
-				Accueil
+				<span>Accueil</span>
 			</div>
 		</a>
 		<div class="chapter__number">
