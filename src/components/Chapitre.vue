@@ -476,7 +476,6 @@ export default {
     }
   },
   ready () {
-    console.log(this.$route.params.chapitre_name)
     if (this.$route.params.chapitre === 'crise-democratique') {
       this.$router.go({ path: '/chapitres/crise-democratique' })
     }
@@ -487,7 +486,6 @@ export default {
       document.querySelector('html').scrollTo(0, 0)
     },
     play: function (el) {
-      console.log(el)
       if (document.querySelector(el).paused) {
         document.querySelector(el).parentElement.style.color = 'transparent'
         document.querySelector(el).play()
@@ -507,6 +505,8 @@ export default {
         this.fictionSrc = require('assets/videos/' + chapitres[this.$route.params.chapitre_name].videoNarration + '.webm')
         this.realSrc = require('assets/videos/' + chapitres[this.$route.params.chapitre_name].chapterIntroduction.video.src + '.webm')
         this.chapterData = chapitres[this.$route.params.chapitre_name]
+        document.querySelectorAll('video')[0].load()
+        document.querySelectorAll('video')[1].load()
         window.scrollTo(0, 0)
       }
     }
