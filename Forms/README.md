@@ -1,0 +1,1 @@
+<h1>Hello</h1>Congratulations you just created your category of component
